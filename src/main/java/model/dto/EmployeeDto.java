@@ -31,22 +31,22 @@ public class EmployeeDto {
         this.empId = empId;
     }
 
-//    public EmployeeDto(String empId, String empName, String empNo, String email, String phone, String deptCode, String jobCode, String salLevel, int salary, double bonus, String managerId, String entYn, Date hireDate, Date endDate) {
-//        this.empId = empId;
-//        this.empName = empName;
-//        this.empNo = empNo;
-//        this.email = email;
-//        this.phone = phone;
-//        this.deptCode = deptCode;
-//        this.jobCode = jobCode;
-//        this.salLevel = salLevel;
-//        this.salary = salary;
-//        this.bonus = bonus;
-//        this.managerId = managerId;
-//        this.entYn = entYn;
-//        this.hireDate = hireDate;
-//        this.endDate = endDate;
-//    }
+    public EmployeeDto(String empId, String empName, String empNo, String email, String phone, String deptCode, String jobCode, String salLevel, int salary, double bonus, String managerId, String entYn, Date hireDate, Date endDate) {
+        this.empId = empId;
+        this.empName = empName;
+        this.empNo = empNo;
+        this.email = email;
+        this.phone = phone;
+        this.deptCode = deptCode;
+        this.jobCode = jobCode;
+        this.salLevel = salLevel;
+        this.salary = salary;
+        this.bonus = bonus;
+        this.managerId = managerId;
+        this.entYn = entYn;
+        this.hireDate = hireDate;
+        this.endDate = endDate;
+    }
 
     @Override
     public String toString() {

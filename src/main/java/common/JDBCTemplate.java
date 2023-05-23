@@ -12,9 +12,6 @@ public class JDBCTemplate {
         Connection con = null;
         Properties prop = new Properties();
 
-
-
-
         try {
             prop.load(new FileReader("src/main/java/config/connection-info.properties"));
 
